@@ -13,7 +13,7 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
-	@RequestMapping("/")
+	@RequestMapping("/home")
 	String sayHello() {
 		return "Hello Azure! Testing Deployment Slot for Java Web Apps";
 	}
